@@ -22,6 +22,9 @@ pnpm-debug.log*
 
 .vercel
 
+# wrangler local state (wrangler dev)
+.wrangler/
+
 package-lock.json
 bun.lockb
 yarn.lock
@@ -29,3 +32,8 @@ venv
 .aider*
 .codebuddy/
 cache/
+
+# 本地专用工具与运行态（保留在本地，不提交）
+post-editor.html
+scripts/test-editor.mjs
+.mimosa/
